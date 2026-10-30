@@ -1,7 +1,7 @@
 # Görev Dağılımı ve Yol Haritası
 
 Proje: ROS 2 + turtlesim ile kare/daire hareketi, konum kaydı, durdur/yeniden başlat.
-Ekip: **Beyza Nur Kerter** (@beyzqk) ve **Kişi B** (@KULLANICI_B)
+Ekip: **Beyza Nur Kerter** (@beyzqk) ve **Duru Kürekçi** (@durusaakiii)
 Hedef: Tüm teslimler **22 Kasım 2026 (Pazar)** günü hazır. 23 Kasım yedek gün, 24 Kasım prova. İlk sunum günü: 25 Kasım 2026 Çarşamba 09.30.
 
 ## Çalışma kuralları
