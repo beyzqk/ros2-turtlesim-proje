@@ -1,0 +1,20 @@
+/pose_logger
+  Subscribers:
+    /turtle1/pose: turtlesim_msgs/msg/Pose
+  Publishers:
+    /parameter_events: rcl_interfaces/msg/ParameterEvent
+    /rosout: rcl_interfaces/msg/Log
+  Service Servers:
+    /pose_logger/describe_parameters: rcl_interfaces/srv/DescribeParameters
+    /pose_logger/get_parameter_types: rcl_interfaces/srv/GetParameterTypes
+    /pose_logger/get_parameters: rcl_interfaces/srv/GetParameters
+    /pose_logger/get_type_description: type_description_interfaces/srv/GetTypeDescription
+    /pose_logger/list_parameters: rcl_interfaces/srv/ListParameters
+    /pose_logger/set_parameters: rcl_interfaces/srv/SetParameters
+    /pose_logger/set_parameters_atomically: rcl_interfaces/srv/SetParametersAtomically
+  Service Clients:
+
+  Action Servers:
+
+  Action Clients:
+
