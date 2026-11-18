@@ -28,10 +28,10 @@ README.md
 
 | Tarih | Görev |
 |---|---|
-| 30 Eki – 1 Kas | Kurulum betiğini ikinci bilgisayarda test; mesaj ve servis araştırması; yurt dışı iş ilanı; rapor iskeleti ve kaynakça |
+| 30 Eki – 1 Kas |  Mesaj ve servis araştırması; yurt dışı iş ilanı; rapor iskeleti ve kaynakça |
 | 2 – 8 Kas | `pose_logger` (CSV kaydı); `rqt_graph`, `topic echo`, `topic hz`, `node info` ekran görüntüleri |
 | 9 – 15 Kas | Kontrol betiği; 4 test senaryosu; hız deneyi ve grafikler |
-| 16 – 21 Kas | Rapor (mesaj/servis, testler, hız analizi, iş ilanı tablosu, kazanımlar); poster; uygulama videosu (en fazla 5 dk) |
+| 16 – 21 Kas | Rapor (mesaj/servis, testler, hız analizi, iş ilanı tablosu, kazanımlar); poster; uygulama videosu |
 | 22 – 24 Kas | Prezi sunumu ve PDF kopyası; prova |
 
 ## Ortak işler
