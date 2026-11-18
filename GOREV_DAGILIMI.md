@@ -21,14 +21,14 @@ README.md
 | 30 Eki – 1 Kas | Depo ve pano kurulumu; `scripts/install_ros2.sh` (sürüm ve ön koşul kontrolü); düğüm ve konu araştırması |
 | 2 – 8 Kas | Paket iskeleti; `motion_node` (kare, daire, parametreler); `scripts/run_demo.sh` |
 | 9 – 15 Kas | `/pause` ve `/resume` servisleri; hız parametreleri (0.5 / 1.0 / 2.0); hata yönetimi; kod dondurma |
-| 16 – 21 Kas | README; rapor (giriş, düğüm/konu, kurulum, sistem yapısı); proje yönetim kayıtları; Türkiye'den iş ilanı |
+| 16 – 21 Kas | README; rapor (giriş, düğüm/konu, kurulum, sistem yapısı); proje yönetim kayıtları |
 | 22 – 24 Kas | Canlı demo ortamı, yedek plan, prova |
 
 ## Duru Kürekçi: Veri, test ve belgeleme
 
 | Tarih | Görev |
 |---|---|
-| 30 Eki – 1 Kas |  Mesaj ve servis araştırması; yurt dışı iş ilanı; rapor iskeleti ve kaynakça |
+| 30 Eki – 1 Kas |  Mesaj ve servis araştırması; rapor iskeleti ve kaynakça |
 | 2 – 8 Kas | `pose_logger` (CSV kaydı); `rqt_graph`, `topic echo`, `topic hz`, `node info` ekran görüntüleri |
 | 9 – 15 Kas | Kontrol betiği; 4 test senaryosu; hız deneyi ve grafikler |
 | 16 – 21 Kas | Rapor (mesaj/servis, testler, hız analizi, iş ilanı tablosu, kazanımlar); poster; uygulama videosu |
@@ -40,6 +40,7 @@ README.md
 - Rapor, sunum, poster, video hazırlanması
 - Raporun son okuması ve kaynakça
 - Her kişinin kendi **bireysel katkı beyanı** (PR, issue ve commit kayıtlarına dayanarak)
+- Türkiye'den ve yurtdışından iş ilanlarının incelenmesi.
 
 ## Kontrol noktaları
 
