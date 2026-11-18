@@ -2,14 +2,7 @@
 
 Proje: ROS 2 + turtlesim ile kare/daire hareketi, konum kaydı, durdur/yeniden başlat.
 Ekip: **Beyza Nur Kerter** (@beyzqk) ve **Duru Kürekçi** (@durusaakiii)
-Hedef: Tüm teslimler **22 Kasım 2026 (Pazar)** günü hazır. 23 Kasım yedek gün, 24 Kasım prova. İlk sunum günü: 25 Kasım 2026 Çarşamba 09.30.
-
-## Çalışma kuralları
-
-- Her görev için ayrı branch açılır, birleştirme pull request ile yapılır ve diğer kişi inceler.
-- Görevler GitHub Issues / Projects üzerinden takip edilir. Süreç baştan kayıtlıdır.
-- Kod en geç **19 Kasım**'da donar. Sonrası sadece hata düzeltme.
-- Haftada bir 30 dakikalık kısa görüşme yapılır.
+Hedef: Tüm teslimler **22 Kasım 2026 (Pazar)** günü hazır. 23,24 Kasım prova. Sunum günü: 25 Kasım 2026 Çarşamba
 
 ## Klasör yapısı
 
@@ -21,7 +14,7 @@ results/    CSV kayıtları, grafikler, ekran görüntüleri
 README.md
 ```
 
-## Kişi A: Kod ve sistem
+## Beyza Nur Kerter: Kod ve sistem
 
 | Tarih | Görev |
 |---|---|
@@ -31,7 +24,7 @@ README.md
 | 16 – 21 Kas | README; rapor (giriş, düğüm/konu, kurulum, sistem yapısı); proje yönetim kayıtları; Türkiye'den iş ilanı |
 | 22 – 24 Kas | Canlı demo ortamı, yedek plan, prova |
 
-## Kişi B: Veri, test ve belgeleme
+## Duru Kürekçi: Veri, test ve belgeleme
 
 | Tarih | Görev |
 |---|---|
@@ -43,7 +36,8 @@ README.md
 
 ## Ortak işler
 
-- Prezi sunumu (her ikiniz de konuşacak, toplam en fazla 13 dk + 2 dk soru-cevap)
+- iş ilanlarının incelenmesi
+- Rapor, sunum, poster, video hazırlanması
 - Raporun son okuması ve kaynakça
 - Her kişinin kendi **bireysel katkı beyanı** (PR, issue ve commit kayıtlarına dayanarak)
 
