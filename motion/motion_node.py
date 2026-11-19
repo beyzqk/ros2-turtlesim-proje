@@ -43,9 +43,8 @@ class MotionNode(Node):
         self.pose = msg
 
     def tick(self):
-        msg = Twist()
         if self.paused:
-            self.pub.publish(msg)
+            self.pub.publish(Twist())
             return
 
         if self.sekil == "daire":
