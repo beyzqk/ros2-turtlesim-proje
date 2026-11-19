@@ -46,6 +46,7 @@ class MotionNode(Node):
         if self.paused:
             self.pub.publish(Twist())
             return
+        msg = Twist()
 
         if self.sekil == "daire":
             msg.linear.x = self.hiz
