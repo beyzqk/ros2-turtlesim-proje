@@ -21,7 +21,23 @@ class MotionNode(Node):
         self.yaricap = self.get_parameter("yaricap").value
         self.kenar = self.get_parameter("kenar").value
 
-        # kare icin durum bilgileri
+        if self.sekil not in ("daire", "kare"):
+            self.get_logger().error(
+                f"Gecersiz sekil: '{self.sekil}'. 'daire' veya 'kare' yazin.")
+            raise SystemExit(1)
+        if self.hiz <= 0:
+            self.get_logger().error("hiz 0'dan buyuk olmali.")
+            raise SystemExit(1)
+        if self.pub.get_subscription_count() == 0:
+            self.get_logger().warning(
+                "turtlesim bulunamadi. Baska bir terminalde "
+                "'ros2 run turtlesim turtlesim_node' calistirin.",
+                throttle_duration_sec=3.0)
+            return
+        if self.yaricap <= 0 or self.kenar <= 0:
+            self.get_logger().error("yaricap ve kenar 0'dan buyuk olmali.")
+            raise SystemExit(1)
+
         self.phase = "ileri"
         self.pose = None
         self.start_x = None
@@ -83,7 +99,7 @@ class MotionNode(Node):
     def pause_callback(self, request, response):
         self.paused = True
         response.success = True
-        response.mesage = "durduruldu"
+        response.message = "durduruldu"
         return response
     def resume_callback(self, request, response):
         self.paused = False
