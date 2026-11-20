@@ -9,7 +9,7 @@ Hedef: Tüm teslimler **22 Kasım 2026 (Pazar)** günü hazır. 23,24 Kasım pro
 ```
 docs/       rapor, poster, ilan ekran görüntüleri
 scripts/    kurulum ve çalıştırma betikleri
-src/        ROS 2 paketi (motion_node, pose_logger)
+motion/     ROS 2 paketi (motion_node, pose_logger)
 results/    CSV kayıtları, grafikler, ekran görüntüleri
 README.md
 ```
