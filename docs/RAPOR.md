@@ -22,9 +22,9 @@ ROS 2 mimarisi, DDS (Data Distribution Service) ara katmanı üzerinde çalışa
 
 ## 3. Kurulum ve Ortam Hazırlığı
 * **İşletim Sistemi:** Ubuntu Linux
-* **ROS 2 Sürümü:** ROS 2 (Humble/Jazzy/Rolling)
+* **ROS 2 Sürümü:** ROS 2 (Lyrical)
 * **Simülasyon:** `turtlesim`
-* Otomatik kurulum işlemleri için `install.sh` betiği hazırlanmıştır.
+* Otomatik kurulum işlemleri için `install_ros2.sh` betiği hazırlanmıştır.
 
 ---
 
