@@ -20,7 +20,7 @@ README.md
 | Tarih | Görev |
 |---|---|
 | 30 Eki – 1 Kas | Depo ve pano kurulumu; `scripts/install_ros2.sh` (sürüm ve ön koşul kontrolü); düğüm ve konu araştırması |
-| 2 – 8 Kas | Paket iskeleti; `motion_node` (kare, daire, parametreler); `scripts/run_demo.sh` |
+| 2 – 8 Kas | Paket iskeleti; `motion_node` (kare, daire, parametreler); |
 | 9 – 15 Kas | `/pause` ve `/resume` servisleri; hız parametreleri (0.5 / 1.0 / 2.0); hata yönetimi; |
 | 16 – 22 Kas | README; rapor (giriş, düğüm/konu, kurulum, sistem yapısı);|
 | 22 – 24 Kas | prova |
