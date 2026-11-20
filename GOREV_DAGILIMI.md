@@ -7,10 +7,11 @@ Hedef: Tüm teslimler **22 Kasım 2026 (Pazar)** günü hazır. 23,24 Kasım pro
 ## Klasör yapısı
 
 ```
-docs/       rapor, poster, ilan ekran görüntüleri
+docs/       araştırma, rapor, poster, ilan ekran görüntüleri, Kaynakça
 scripts/    kurulum ve çalıştırma betikleri
-motion/     ROS 2 paketi (motion_node, pose_logger)
+src/     ROS 2 paketi (motion_node, pose_logger)
 results/    CSV kayıtları, grafikler, ekran görüntüleri
+test_sonucları/ yapılan testler ve ekran görüntüleri
 README.md
 ```
 
@@ -21,7 +22,7 @@ README.md
 | 30 Eki – 1 Kas | Depo ve pano kurulumu; `scripts/install_ros2.sh` (sürüm ve ön koşul kontrolü); düğüm ve konu araştırması |
 | 2 – 8 Kas | Paket iskeleti; `motion_node` (kare, daire, parametreler); `scripts/run_demo.sh` |
 | 9 – 15 Kas | `/pause` ve `/resume` servisleri; hız parametreleri (0.5 / 1.0 / 2.0); hata yönetimi; |
-| 16 – 22 Kas | README; rapor (giriş, düğüm/konu, kurulum, sistem yapısı); proje yönetim kayıtları |
+| 16 – 22 Kas | README; rapor (giriş, düğüm/konu, kurulum, sistem yapısı);|
 | 22 – 24 Kas | prova |
 
 ## Duru Kürekçi: Veri, test ve belgeleme
